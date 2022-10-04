@@ -159,10 +159,10 @@ body{
 }
 @media only screen and (max-width:1400px){
     #document p{
-        width:268px;
+        width:277px;
     }
     #document h4{
-        width:268px;
+        width:277px;
     }
 }
 @media only screen and (max-width:1150px){
@@ -177,6 +177,18 @@ body{
         left:450px;
     }
 }
+@media only screen and (max-width:1100px){
+    #document p{
+        width:245px;
+    }
+    #document h4{
+        width:245px;
+    }
+    #sec-page{
+        position:relative;
+        left:350px;
+    }
+}
 @media only screen and (max-width:1050px){
     #document p{
         width:233px;
@@ -189,12 +201,12 @@ body{
         left:450px;
     }
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:850px){
     #document p{
-        width:179px;
+        width:181px;
     }
     #document h4{
-        width:179px;
+        width:181px;
     }
     #sec-page{
         position:relative;
