@@ -134,7 +134,7 @@ body{
 }
 #sec-page{
     position:relative;
-    left:500px;
+    text-align: center;
     margin-top:25px;
 }
 #second-page{
@@ -172,10 +172,6 @@ body{
     #document h4{
         width:263px;
     }
-    #sec-page{
-        position:relative;
-        left:450px;
-    }
 }
 @media only screen and (max-width:1100px){
     #document p{
@@ -183,10 +179,6 @@ body{
     }
     #document h4{
         width:245px;
-    }
-    #sec-page{
-        position:relative;
-        left:350px;
     }
 }
 @media only screen and (max-width:1050px){
@@ -196,10 +188,6 @@ body{
     #document h4{
         width:233px;
     }
-    #sec-page{
-        position:relative;
-        left:450px;
-    }
 }
 @media only screen and (max-width:850px){
     #document p{
@@ -207,10 +195,6 @@ body{
     }
     #document h4{
         width:181px;
-    }
-    #sec-page{
-        position:relative;
-        left:350px;
     }
 }
 @media only screen and (max-width:810px){
@@ -228,10 +212,6 @@ body{
     #document h4{
         width:169px;
     }
-    #sec-page{
-        position:relative;
-        left:350px;
-    }
 }
 @media only screen and (max-width:500px){
     #document p{
@@ -239,10 +219,6 @@ body{
     }
     #document h4{
         width:275px;
-    }
-    #sec-page{
-        position:relative;
-        left:130px;
     }
 
     #sell p{
@@ -263,4 +239,39 @@ html,body{
     padding:0px;
     margin:0px;
     overflow-x: hidden;
+}
+#reason{
+    text-align: center;
+}
+.points{
+    background-color: rgb(172, 104, 115);
+    font-size: 19px;
+}
+#contact{
+    text-align: center;
+}
+#contact-bg{
+    background-color: cadetblue;
+}
+.Fourth-font{
+    font-size: 19px;
+}
+#end{
+    text-align: center;
+    font-size: 19px;
+    background-color: rgb(56, 55, 55);
+}
+@media only screen and (max-width:850px){
+    .Fourth-font iframe{
+        position:relative;
+        right:5px;
+        width:200px;
+    }
+}
+@media only screen and (max-width:770px){
+    .Fourth-font iframe{
+        position:relative;
+        right:5px;
+        width:200px;
+    }
 }
